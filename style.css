@@ -1,3 +1,11 @@
+
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
 .nav ul 
 {
     display: flex;
@@ -29,7 +37,7 @@
 {
     text-align: center;
 }
-#why-web,#my-inspiration
+#why-web,#my-inspiration,#current-target
 {
     margin:30px 0
 }
@@ -43,4 +51,87 @@
 .iframe-video
 {
     text-align: center;
+}
+.card-container
+{
+    margin:40px 0
+}
+.card
+{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin:20px 10px;
+    padding:20px 10px;
+}
+.card-web
+{
+    padding: 30px 20px;
+    margin: 0 30px;
+}
+.card-web a
+{
+    color:rgb(13, 19, 33)
+}
+
+.section-title
+{
+    margin:20px 10px;
+    padding: 30px 20px;
+    color: white;
+}
+.support-message
+{
+    text-align: center;
+}
+
+#support
+{
+    background-image: url('assets/handshake.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.support-message input
+{
+width: 450px;
+height: 40px;
+margin: 24px 0px;
+border-radius: 10px;
+border: 0;
+padding: 0 20px;
+}
+.support-message button
+{
+width: 120px;
+height: 57px;
+padding: 15PX 20PX;
+font-size: 15px;
+border-radius: 10px;
+border:0;
+margin: 0px 16px;
+}
+footer
+{
+    margin:20px 0;
+    padding: 10px 0
+}
+.footer-item
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icon
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    font-size: 20px;
+}
+.social-icon a
+{
+    text-decoration: none;
+    color: black;
 }
